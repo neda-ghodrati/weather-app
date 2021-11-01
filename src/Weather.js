@@ -13,6 +13,6 @@ export default function Weather(props) {
   axios.get(apiUrl).then(handleResponse);
 
   return (
-    <Loader type="Puff" color="Yellow" height={50} width={50} timeout={3000} />
+    <Loader type="Puff" color="Orange" height={50} width={50} timeout={3000} />
   );
 }
